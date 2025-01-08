@@ -65,10 +65,11 @@
     cursor: pointer;
 }
 .card-container{
-    width: 70%;
+    max-width: 70%;
     margin: 0 auto;
-    height: 742px;
     margin-top: 167px;
+    height: 871px;
+    
 }
 .card-title{
     text-align: center;
@@ -83,4 +84,35 @@
     font-size: 48px;
     font-weight: 700;
     line-height: 64px;
+}
+.btn-1{
+    background-color:rgba(82, 195, 3, 0.15);
+    color: black;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 8px;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn-content{
+    text-align: center;
+}
+.button{
+    margin-top: 32px;
+}
+.head-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+.title-description-2{
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
 }
