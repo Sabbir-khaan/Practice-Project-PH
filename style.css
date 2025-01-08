@@ -64,3 +64,23 @@
     margin-top: 30px;
     cursor: pointer;
 }
+.card-container{
+    width: 70%;
+    margin: 0 auto;
+    height: 742px;
+    margin-top: 167px;
+}
+.card-title{
+    text-align: center;
+}
+.title{
+    font-size: 24px;
+    color: rgb(16, 16, 16);
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+.title-description{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+}
