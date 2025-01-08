@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font{
+    font-family: Work Sans, serif;
+}
+#hero{ 
+    background: linear-gradient(0deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%), url(make-essential-UI-components-Resources/assets/hero-bg.png);;
+    height:919px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .banner{
+    width: 1023px;
+    margin: 0 auto;
+    
+}
+#hero  .banner .para{
+    text-align: center;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    margin-left: 28px;
+    
+}
+#hero  .banner .title{
+    color:  rgb(255, 255, 255);
+    font-size: 64px;
+    text-align: center;
+    font-weight: 700px;
+    margin-right: 6px;
+    margin-top: 20px;
+    line-height: 80px;
+}
+#hero  .banner .para2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.7;
+    margin-right: 28px;
+    margin-top: 30px;
+    line-height: 32px;
+}
+.btn-container{
+    text-align: center;
+}
+.btn{
+    background-color: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    padding: 21px 32px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-bottom: 220px;
+    margin-top: 30px;
+    cursor: pointer;
+}
